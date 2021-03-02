@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <pre>
+      ====== raccourcis définis par moi même CTRL K S ====== 
+
+      CTRL K E Pour  obtenir le Quand (when) dans les raccourcis clavier (marche uniquement
+      après avoir défini le raccourci clavier) ou faire click D puis "changer en
+      cas d'expression" 
+      CTRL MAJ A toogle la barre d'activité. La barre la plus à gauche
+      CTRL MAJ E placer le focus sur les fichiers source "vue contrôle de code source"
+       on utilise les flèches D G pour ouvrir fermer les dossiers
+      fleches Haut Bas pour naviguer dans les fichiers 
+      ALT C ALT F Collapse folder in explorer ferme tous les dossier de l'explorateur 
+      CTRL : Breadcrumps focus, affiche le chemin du fichier en haut 
+      CTRL MAJ < Breadcrumps focus and select puis on utilise la flèche vers le bas pour
+      chercher la function ou autre; touche entrer pour sélectionner. 
+      CTRL L E LineEnd 
+      CTRL L S LineStart puis MAJ flèche bas pour sélectionner ligne après ligne. 
+      CTRL MAJ L sélectionne toute la ligne à droite du curseur
+      CTRL MAJ K sélectionne tout à droite du curseur 
+      CTRL MAJ J copie la ligne vers le bas 
+      CTRL MAJ I copie la ligne vers le haut 
+      CTRL J toggle terminal
+      CTRL T + K terminal kill tue l'instance courante du terminal. 
+      CTRL T + N crée un nouveau terminal dans le dossier de travail.
+      ALT UPARROW | DOWNARROW pour changer de terminal haut bas (pas défini de base) 
+      CTRL L  terminal clear (comme dans le shell linux)
+
+      ===== changements dans les settings CTRL , ==========
+      
+      - button close tab => pour en enlever la croix de fermeture des fichiers.
+      - explorer autoreveal à false => empêche l'ouverture
+      du dossier dans l'exploreur quand on ouvre un nouveau fichier.
+      - trim final newlines enleve les lignes vides en fin de fichier lors de la sauvegarde.
+      - workbench: editor enable preview on décoche; chaque fichier ouvert est
+      ouvert dans un nouvel onglet, plus besoin de double cliquer pour éditer.
+      - editor: word wrap on ALT Z pour activer ou désactiver. 
+      
+      ====== raccourcis intégrés à VS CODE =======
+      
+      CTRL , Pour entrer dans les settings 
+      CTRL K CTRL S shortcuts pour obtenir les raccourcis, chercher l'item et quand l'a
+      trouvé on clique dessus pour changer le raccourci. expl: faire CTRL K CTRL S
+      puis juste taper select pour connaitre tous les raccourcis de sélection.
+      CTRL K CTRL T Themes de couleurs expl darcula dracula github 
+      CTRL B affiche la barre latérale (les fichiers) appelé activity bar
+      
+      ======= Ne pas utiliser la souris raccourcis intégrés ======
+      
+      CTRL P Pour ouvrir un fichier
+      CTRL W Pour fermer un fichier sans cliquer sur la croix.
+      CTRL MAJ T Pour réouvrir un fichier fermé 
+      CTRL TAB switch entre les 2 derniers fichiers ouverts 
+      CTRL MAJ TAB navigue entre tous les fichiers ouverts 
+      CTRL E ouvre un menu déroulant de tous les fichiers ouverts 
+      CTRL PageUp PageDown aller à l'onglet suivant précédent 
+      CTRL MAJ avec les fleches pour sélectionner la ligne à partir du curseur vers la droite ou la gauche. 
+      CTRL D selectionne le mot sous le curseur CTRL D plusieurs fois sélectionne les
+      autres occurences du mot. 
+      CTRL flèche H | B déplace l'ensemble du texte vers le haut ou le bas 
+      CTRL G aller à la ligne numéro 100 CTRL FIN aller à la fin du fichier 
+      CTRL touche au-dessus du FIN (end) va au début du fichier 
+      CTRL U cursor undo revient à la position précédante du curseur 
+      MAJ flèche D | G selectionne lettre aprés lettre 
+      MAJ flèche H | B sélectionne ligne courante puis se déplace vers le H | B 
+      ALT MAJ flèche D sélectionne le contenu du bloc () ou toute la fonction si on se place à l'intérieur de la fonction. 
+      ALT flèche haut bas pour descendre ou monter une ligne 
+      CRTL K CTRL à (touche 0 zéro) plier tout 
+      CTRL K CTRL J déplier tout 
+      CTRL K CTRL L plier déplier une région 
+      CTRL Z et CTRL SHIFT Z undo redo 
+      CTRL MAJ S enregistrer sous ... enregistre une copie du fichier INTERESSANT !!! 
+      CTRL M active ou désactive la touche TAB. 
+      ALT Z active ou désactive le retour automatique à la ligne. 
+      CTRL K CTRL C pour commenter une ligne 
+      CTRL K CTRL U pour décommenter une ligne 
+      
+      ----------------   pour le terminal     --------------------- 
+      
+      CTRL SHIFT ( split terminal 
+      CTRL SHIFT FLECHES G | D pour changer la largeur du terminal actif 
+      ALT LEFTARROW | RIGHTARROW pour changer de terminal gauche droit 
+      ALT UPARROW | DOWNARROW pour changer de terminal haut bas (pas défini de base)
+      
+      ======= Les snippets =============
+      
+      Fichier > Préférence > Extraits utilisateur choisir le fichier selon le
+      langage: javascript.json ReactJavascript.json etc ... 
+      
+      ======= DEBUGGING JS, python ... ===== 
+      
+      CTRL MAJ D 
+      
+      ======= les extensions ===============
+      
+      @builtin dans la barre de recherche des extensions pour savoir ce qui est
+      installé. 
+      CTRL SHIFT P nom de l'extension pour voir les options de l'extension. 
+      - auto rename tag pour le jsx xml 
+      - settings sync pour sauvegarder uploader la config de VScode (sur github)
+      1. Upload Key : Shift + Alt + U envois les settings github. 
+      2. Download Key : Shift + Alt + D télécharge les settings de github vers VSCODE (on macOS: Shift + Option + U / Shift + Option + D) 
+      - :emojisense: CTRL I pour ouvrir un menu déroulant, ou CTRL SHIFT P puis taper emoji pour les options 
+      - polacode CTRL SHIFT P polacode le lancer sélectionner le code le copier puis le coller
+      dans la fenêtre de polacode cliquer sur l'iris pour enregistrer le fichier png.
+      
+      ======= remarques générales sur les touches AZERTY =========== 
+      
+      Le bactick ` => AltGr + 7 
+      " touche # ou 3' 
+      ' touche 4 
+      È SHIFT AltGr + 7 
+      É SHIFT AltGr + 2 
+      ( TOUCHE 5 
+      ) après la touche 0 
+      [ ] idem précédées par AltGr [] accessibles par AltGr au dessus des ronds () 
+      - touche 6 
+      | au dessus du - 
+      
+      =============== astuces programmation ================== 
+      
+      F2 pour renommer un symbole (variable ...) 
+      click gauche sur ampoule jaune à gauche pour refactoriser 
+      
+      ------------------- git extension ---------------- 
+      
+      click sur le + pour stage sur le - pour unstage 
+      click sur les ... en haut à droite pour ouvrir le menu git 
+      clicker sur le plus  équivalent a git add (stage file) 
+      clicker sur le moins unstage 
+      
+      ====== TIMESTAMP =============== timestamp
+      2h 39mn dans le fichier. markdown :w! pour sauver
+    </pre>
+    </p>
+  </body>
+</html>
